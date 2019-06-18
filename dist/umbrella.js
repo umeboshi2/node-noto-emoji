@@ -1,1 +1,1 @@
-module.exports = require("asturur-noto-emoji/svg/emoji_u2602.svg");
+module.exports = require("asturur-noto-emoji/svg/emoji_u2614.svg");

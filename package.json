@@ -1,6 +1,6 @@
 {
   "name": "node-noto-emoji",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Joseph Rawson <joseph.rawson.works@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "asturur-noto-emoji": "^4.0.1",
-    "node-emoji": "^1.10.0"
+    "asturur-noto-emoji": "^3.0.3",
+    "node-emoji": "^1.8.1"
   },
   "devDependencies": {
-    "coffeescript": "^2.4.1"
+    "coffeescript": "^2.3.0"
   }
 }
