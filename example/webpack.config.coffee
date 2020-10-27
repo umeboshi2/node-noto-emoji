@@ -8,6 +8,7 @@ BundleTracker = require 'webpack-bundle-tracker'
 MiniCssExtractPlugin = require 'mini-css-extract-plugin'
 HtmlPlugin = require 'html-webpack-plugin'
 FaviconPlugin = require 'favicons-webpack-plugin'
+LodashModuleReplacementPlugin = require 'lodash-webpack-plugin'
 
 BuildEnvironment = process.env.NODE_ENV or 'development'
 if BuildEnvironment not in ['development', 'production']
@@ -139,9 +140,10 @@ common_plugins = [
   new HtmlPlugin
     template: './index.coffee'
     filename: 'index.html'
+  ###
   new FaviconPlugin
-    logo: './assets/space_invader.svg'
-    title: 'Noto'
+    logo: './assets/zuki.png'
+    title: 'Zuki'
     icons:
       android: false
       appleIcon: false
@@ -152,6 +154,8 @@ common_plugins = [
       twitter: false
       yandex: false
       windows: false
+  ###
+  new LodashModuleReplacementPlugin
   ]
     
 

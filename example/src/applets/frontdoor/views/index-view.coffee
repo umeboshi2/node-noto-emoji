@@ -101,5 +101,5 @@ class MainView extends Marionette.View
 #class MainView extends Marionette.View
 #  template: view_template
 
-module.exports = MainView
+export default MainView
 
